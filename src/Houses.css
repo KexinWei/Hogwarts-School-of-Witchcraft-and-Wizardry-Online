@@ -1,0 +1,65 @@
+#houses-main {
+    display: grid;
+    grid-template-columns: repeat(12, 1fr);
+    place-items: center;
+    padding: 0.5rem 1rem;
+    background-color: #F1E6D2;
+}
+
+#houses-main h2 {
+    grid-column: span 12;
+    text-align: center;
+    color: #0D6217;
+    background-color: #F1E6D2;
+    width: 100%;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}
+
+#houses-main .card {
+    display: flex;
+    grid-column: span 12;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    padding: 0.5rem;
+    margin: 0.5rem;
+    border: 1px solid #212121;
+    border-radius: 1rem;
+    background-color: #FAFAFA;
+}
+
+#houses-main .card img {
+    margin: 0.5rem 0;
+}
+
+#houses-main .card p {
+    color: #212121;
+    margin: 0.5rem 0;
+}
+
+#houses-main .more {
+    margin-top: auto;
+    background-color: #7F1C1F;
+    color: #F1E6D2;
+    padding: 0.5rem 1rem;
+    border: none;
+    border-radius: 0.3rem;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+#houses-main .more:hover {
+    background-color: #DAA520;
+}
+
+@media (min-width: 44rem) {
+    #houses-main {
+        padding: 1rem;
+        gap: 2rem;
+    }
+
+    #houses-main .card {
+        grid-column: span 6;
+        height: 100%;
+    }
+}
