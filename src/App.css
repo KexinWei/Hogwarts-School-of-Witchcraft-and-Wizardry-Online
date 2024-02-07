@@ -1,9 +1,0 @@
-#dormitories-main h2 {
-    grid-area: title;
-    padding-top: 1rem;
-    text-align: center;
-    color: #0D6217;
-    background-color: #F1E6D2;
-    width: 100%;
-    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
-}
