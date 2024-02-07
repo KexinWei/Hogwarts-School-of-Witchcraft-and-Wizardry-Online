@@ -2,7 +2,7 @@
   "name": "final",
   "private": true,
   "version": "0.0.0",
-  "homepage": "https://kexinwei.github.io/World-Hunger-Map/",
+  "homepage": "https://kexinwei.github.io/Hogwarts-School-of-Witchcraft-and-Wizardry-Online",
   "type": "module",
   "scripts": {
     "dev": "vite",
